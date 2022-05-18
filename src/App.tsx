@@ -1,10 +1,11 @@
 import React from "react";
+import './styles.less';
 
 const App = () =>{
     return (
-        <h1>
+        <div className="app">
             Welcome to React App thats build using Webpack and Babel separately
-        </h1>
+        </div>
     )
 }
 
